@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
+  <title id="title">My engineering journey</title>
+  <desc id="desc">An animated timeline showing curiosity, learning, building and shipping software.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset=".5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="1098" height="298" rx="22" fill="#0B1220" stroke="#263449"/>
+  <path d="M45 45H1055M45 255H1055" stroke="#334155" stroke-opacity=".45" stroke-dasharray="3 8"/>
+  <text x="55" y="76" fill="#94A3B8" font-family="monospace" font-size="13" letter-spacing="3">THE ENGINEERING LOOP</text>
+  <text x="55" y="111" fill="#F8FAFC" font-family="Arial,sans-serif" font-size="25" font-weight="700">Curiosity turns into things people can use.</text>
+  <path d="M115 185H985" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <path d="M115 185H985" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-dasharray="870" stroke-dashoffset="870">
+    <animate attributeName="stroke-dashoffset" from="870" to="0" dur="3.6s" fill="freeze"/>
+  </path>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(115 185)">
+      <circle r="25" fill="#38BDF8" opacity=".12"/>
+      <circle r="9" fill="#38BDF8"/>
+      <text y="48" fill="#E2E8F0" font-size="16" font-weight="700">01 · EXPLORE</text>
+      <text y="70" fill="#94A3B8" font-size="12">Ask better questions</text>
+    </g>
+    <g transform="translate(405 185)">
+      <circle r="25" fill="#818CF8" opacity=".12"/>
+      <circle r="9" fill="#818CF8"/>
+      <text y="48" fill="#E2E8F0" font-size="16" font-weight="700">02 · LEARN</text>
+      <text y="70" fill="#94A3B8" font-size="12">Understand the system</text>
+    </g>
+    <g transform="translate(695 185)">
+      <circle r="25" fill="#A78BFA" opacity=".12"/>
+      <circle r="9" fill="#A78BFA"/>
+      <text y="48" fill="#E2E8F0" font-size="16" font-weight="700">03 · BUILD</text>
+      <text y="70" fill="#94A3B8" font-size="12">Turn ideas into software</text>
+    </g>
+    <g transform="translate(985 185)">
+      <circle r="25" fill="#34D399" opacity=".12"/>
+      <circle r="9" fill="#34D399"/>
+      <text y="48" fill="#E2E8F0" font-size="16" font-weight="700">04 · SHIP</text>
+      <text y="70" fill="#94A3B8" font-size="12">Improve with feedback</text>
+    </g>
+  </g>
+  <circle r="24" fill="url(#halo)">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M115 185 H985"/>
+  </circle>
+  <circle r="6" fill="#E0F2FE" filter="url(#glow)">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M115 185 H985"/>
+  </circle>
+  <text x="55" y="270" fill="#64748B" font-family="monospace" font-size="11" letter-spacing="2">ALWAYS ITERATING  ↗</text>
+  <text x="1045" y="270" fill="#64748B" font-family="monospace" font-size="11" text-anchor="end">BUILD · LEARN · REFINE</text>
+</svg>
