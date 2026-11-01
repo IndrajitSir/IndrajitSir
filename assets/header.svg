@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Indrajit Mandal — Software Engineer</title>
+  <desc id="desc">A dark technical banner with a subtle grid, glowing blue accents and software engineering identity.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B16"/>
+      <stop offset="0.55" stop-color="#101A2D"/>
+      <stop offset="1" stop-color="#07111F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#94A3B8" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#2563EB" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <ellipse cx="1000" cy="90" rx="330" ry="260" fill="url(#glow)"/>
+  <path d="M0 282 C220 250 340 320 560 280 S930 230 1200 270" fill="none" stroke="url(#accent)" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M0 296 C220 264 340 334 560 294 S930 244 1200 284" fill="none" stroke="#38BDF8" stroke-opacity=".12" stroke-width="1"/>
+  <g fill="#38BDF8" opacity=".8">
+    <circle cx="1010" cy="75" r="3"/><circle cx="1060" cy="118" r="2"/><circle cx="1120" cy="58" r="2"/>
+    <circle cx="930" cy="150" r="2"/><circle cx="1150" cy="190" r="3"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="82" y="104" fill="#7DD3FC" font-size="15" letter-spacing="4">HELLO, WORLD — I'M</text>
+    <text x="78" y="174" fill="#F8FAFC" font-size="58" font-weight="700" letter-spacing="-2">INDRAJIT MANDAL</text>
+    <rect x="82" y="198" width="74" height="4" rx="2" fill="url(#accent)"/>
+    <text x="82" y="244" fill="#CBD5E1" font-size="22">Software Engineer  /  Backend &amp; Full-Stack Development</text>
+    <text x="82" y="282" fill="#64748B" font-size="14" letter-spacing="2">BUILD  ·  LEARN  ·  REFINE  ·  REPEAT</text>
+    <text x="1040" y="300" fill="#64748B" font-size="12" text-anchor="end">IN / 01</text>
+  </g>
+</svg>
