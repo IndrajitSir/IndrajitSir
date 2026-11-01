@@ -29,6 +29,33 @@
 
 ---
 
+## `the_story`
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IndrajitSir/IndrajitSir/main/assets/engineering-journey.svg" width="100%" alt="Animated engineering journey: explore, learn, build and ship"/>
+</p>
+
+I see software engineering as a continuous loop: **explore a problem → understand the system → build a solution → ship it → make it better.**
+
+<details>
+  <summary><strong>01 · Explore — stay curious</strong></summary>
+  <p>Follow questions beyond the surface. I enjoy understanding how applications, networks, operating systems and infrastructure work together.</p>
+</details>
+<details>
+  <summary><strong>02 · Learn — understand the foundations</strong></summary>
+  <p>Strengthen fundamentals in programming, databases, APIs, security and system design instead of relying only on tools and frameworks.</p>
+</details>
+<details>
+  <summary><strong>03 · Build — turn ideas into software</strong></summary>
+  <p>Work on practical products, backend services, developer tools and applications that solve real problems.</p>
+</details>
+<details>
+  <summary><strong>04 · Ship — iterate in the real world</strong></summary>
+  <p>Test, deploy, observe, take feedback and refine. A project becomes better through deliberate iterations.</p>
+</details>
+
+---
+
 ## `whoami`
 
 I'm **Indrajit Mandal**, a software engineer interested in building dependable applications and understanding the engineering behind them.
